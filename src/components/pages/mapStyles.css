@@ -1,0 +1,23 @@
+
+/* Move the zoom controls to the lower right corner */
+.leaflet-bottom.leaflet-right .leaflet-control-zoom {
+    margin-bottom: 30px;
+    margin-right: 30px;
+  }
+  
+  /* Increase button size */
+  .leaflet-control-zoom-in, 
+  .leaflet-control-zoom-out {
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 30px !important;
+    line-height: 45px !important;
+    background-color: #f0f0f0 !important;
+  }
+  
+  /* Hover effect */
+  .leaflet-control-zoom-in:hover, 
+  .leaflet-control-zoom-out:hover {
+    background-color: #007bff !important;
+    color: white !important;
+  }
